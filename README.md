@@ -17,9 +17,9 @@ Steps to create App locally -
 
 1. Clone repository
 2. Install - Nodemon, dotenv, express, pg, ejs and knex
-3. Create API Key from https://www.themoviedb.org/ and add in API_KEY
-
-4. Create .env file to pass the below parameters - 
+3. Install postgreSQL
+4. Create API Key from https://www.themoviedb.org/ and add in API_KEY
+5. Create .env file to pass the below parameters - 
 
 API_KEY= ?
 PORT=3000
@@ -33,5 +33,4 @@ DB_DBNAME=
 
 DB_ENVIRONMENT=development
 
-5. Run - npm migrate to create users table. 
-
+5. Run - npm run migrate to create users table. 
